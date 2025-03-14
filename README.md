@@ -35,6 +35,18 @@
 You can install `st` with:
 
 ```sh
+cargo binstall --git https://github.com/clabby/st st
+```
+
+or
+
+```sh
+cargo install --git https://github.com/clabby/st st
+```
+
+or
+
+```sh
 git clone https://github.com/clabby/st && \
    cd st && \
    cargo install --bin st --path . --force
